@@ -38,6 +38,13 @@ filling_prices["Mozzarela"]=5;
 filling_prices["Hawaii"]=7;
 filling_prices["Pineaple"]=8;
 filling_prices["Corn"]=10;
+filling_prices["Magherrita"]=5;
+filling_prices["Sausage"]=9;
+filling_prices["Veggie"]=5;
+filling_prices["Bacon"]=5;
+filling_prices["Mushroom"]=8;
+filling_prices["Onion"]=7;
+filling_prices["Cheese"]=12;
 
 
 function getFillingPrice()
