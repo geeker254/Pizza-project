@@ -29,6 +29,6 @@ The user interacts with the site where he/she select their order based on their 
 
     *eugenebiwott@gmail.com
 
-### Link to published site: [click here]()
+### Link to published site: [click here](https://geeker254.github.io/Pizza-project/)
 
 ## License: [copywright information](https://raw.githubusercontent.com/geeker254/Pizza-project/master/LICENSE)
