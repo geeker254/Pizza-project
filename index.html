@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
     <link rel="stylesheet" href="bootstrap.css">
+    <link rel="stylesheet" href="script.js">
     <title>PIZZA JOINT</title>
 </head>
 <body>
@@ -80,7 +81,7 @@
     <div class="orders">
         <h1 class="text-center">ORDERS</h1>
         <div class="form px-5">
-            <form action="" id="cakeform" onsubmit="return false;">
+            <form action="" id="pizzaform" onsubmit="return false;">
                 <div>
                     <div class="cont_order">
                        <fieldset>
@@ -90,9 +91,10 @@
                         <label class="radiolabel"><input type="radio" name="selectedpizza" value="Round8" onclick="calculateTotal()">Medium Pizza  - serves 4 people ($25)</label><br>
                         <label class="radiolabel"><input type="radio" name="selectedpizza" value="Round10" onclick="calculateTotal()">Large Pizza  - serves 6 people($35)</label><br>
                         <br>
+                        
                         <label>Type of Pizza</label>
                  
-                        <select id="filling" name="filling" onchange="calculateTotal()">
+                        <select id="pizzatype" name="pizzatype" onclick="calculateTotal()">
                         <option value="Peperoni">Peperoni($5)</option>
                         <option value="Mozzarela">Mozzarela($5)</option>
                         <option value="Hawaii">Hawaii($7)</option>
@@ -108,14 +110,11 @@
                        </select>
                         <br>
                         <p>
-                        <label for="includecandles" class="inlinelabel">Include Barbeque Sauce($5)</label>
-                       <input type="checkbox" id="includecandles" name="includecandles" onclick="calculateTotal()">
+                        <label for="includesauce" class="inlinelabel">Include Barbeque Sauce($5)</label>
+                       <input type="checkbox" id="includesauce" name="includesauce" onclick="calculateTotal()">
                        </p>
                        
-                        <p>
-                        <label class="inlinelabel" for="includeinscription">Include Chedder cheese($20)</label>
-                        <input type="checkbox" id="includeinscription" name="includeinscription" onclick="calculateTotal()">
-                        </p>
+>
                         <div id="totalPrice" style="display: none;"></div>
                         
                         </fieldset>
@@ -135,7 +134,7 @@
                         <br>
                         </fieldset>
                     </div>
-                    <input type="submit" id="submit" value="Submit" onclick="calculateTotal()">
+                    <input type="submit" id="submit" value="Submit" onclick="javascript:alert('Thank You for Ordering')">
                 </div>  
                </form>
         </div>
