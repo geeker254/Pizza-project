@@ -1,5 +1,5 @@
 ## Project Name 
-Pizza IN
+Pizza Calculator
 
 ## Project Description 
 This is a web page that diplays various pizza slices based on size and price.
@@ -23,13 +23,12 @@ The user interacts with the site where he/she select their order based on their 
 
     *Visual Studio Code
     *Bootstrap
-    *Google fonts
     *jQuery version 3.5.1
 
 ### Contact information
 
     *eugenebiwott@gmail.com
 
-### Link to published site: [click here](https://geeker254.github.io/Delani-studio/)
+### Link to published site: [click here]()
 
-## License: [copywright information](https://raw.githubusercontent.com/geeker254/Delani-studio/master/LICENSE)
+## License: [copywright information](https://raw.githubusercontent.com/geeker254/Pizza-project/master/LICENSE)
