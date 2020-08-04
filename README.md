@@ -17,7 +17,7 @@ Runs on normal browser like
     *Duck Duck Go
 
 ### Behavior Driven Development
-The user interacts with the site where he/she select their order based on their choice and enjoy a delicious pizza.
+The user interacts with the site where he/she select their order based on their choice and place an order of one of our finest delicious pizza.
 
 ### Technologies Used
 
