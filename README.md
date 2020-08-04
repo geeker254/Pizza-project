@@ -2,7 +2,7 @@
 Pizza Calculator
 
 ## Project Description 
-This is a web page that diplays various pizza slices based on size and price.
+This is a web page that diplays various pizza types based on size, price and toppings.
 
 #### Author: 
 Eugene Biwott
